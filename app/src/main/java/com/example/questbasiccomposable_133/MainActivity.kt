@@ -47,6 +47,8 @@ fun BasicLayout(modifier: Modifier = Modifier) {
             fontWeight = FontWeight.Bold),
             modifier = Modifier.padding(bottom = 10.dp)
         )
+
+        Text(text = "Ini adalah halaman Login", style = TextStyle(fontSize = 20.sp))
     }
 }
 
