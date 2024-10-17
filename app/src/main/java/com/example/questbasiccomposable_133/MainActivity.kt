@@ -59,7 +59,8 @@ fun BasicLayout(modifier: Modifier = Modifier) {
         )
 
         Text(text = "Nama", style = TextStyle(fontSize = 20.sp))
-
+        Text(text =  "Daffa Putradika Pratama", style = TextStyle(fontSize = 30.sp,
+            ))
     }
 }
 
