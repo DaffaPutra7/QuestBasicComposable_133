@@ -6,6 +6,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
@@ -46,7 +47,7 @@ fun BasicLayout(modifier: Modifier = Modifier) {
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Top,
-        modifier = Modifier.fillMaxSize()
+        modifier = Modifier.fillMaxSize().background(Color.LightGray)
     ) {
         Text(text = "Login", style = TextStyle(fontSize = 50.sp,
             fontWeight = FontWeight.Bold),
@@ -62,7 +63,7 @@ fun BasicLayout(modifier: Modifier = Modifier) {
         Text(text = "Nama", style = TextStyle(fontSize = 20.sp))
         Text(text =  "Daffa Putradika Pratama", style = TextStyle(fontSize = 30.sp,
             fontWeight = FontWeight.Light,
-            color = Color.Cyan),
+            color = Color.Blue ),
             modifier = Modifier.padding(bottom = 10.dp))
         Text(text = "20220140133", style = TextStyle(fontSize = 50.sp))
 
