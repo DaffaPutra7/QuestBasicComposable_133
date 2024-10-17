@@ -62,9 +62,9 @@ fun BasicLayout(modifier: Modifier = Modifier) {
         Text(text = "Nama", style = TextStyle(fontSize = 20.sp))
         Text(text =  "Daffa Putradika Pratama", style = TextStyle(fontSize = 30.sp,
             fontWeight = FontWeight.Light,
-            color = Color.Cyan
-        ))
-
+            color = Color.Cyan),
+            modifier = Modifier.padding(bottom = 10.dp))
+        Text(text = "20220140133", style = TextStyle(fontSize = 50.sp))
     }
 }
 
