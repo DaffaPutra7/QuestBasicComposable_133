@@ -58,6 +58,7 @@ fun BasicLayout(modifier: Modifier = Modifier) {
             modifier = Modifier.padding(top = 10.dp).padding(bottom = 10.dp).size(250.dp)
         )
 
+        Text(text = "Nama", style = TextStyle(fontSize = 20.sp))
 
     }
 }
