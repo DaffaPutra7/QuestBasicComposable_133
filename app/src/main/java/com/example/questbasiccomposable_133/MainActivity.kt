@@ -9,7 +9,9 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Scaffold
@@ -63,10 +65,11 @@ fun BasicLayout(modifier: Modifier = Modifier) {
         Text(text = "Nama", style = TextStyle(fontSize = 20.sp))
         Text(text =  "Daffa Putradika Pratama", style = TextStyle(fontSize = 30.sp,
             fontWeight = FontWeight.Light,
-            color = Color.Blue ),
-            modifier = Modifier.padding(bottom = 10.dp))
-        Text(text = "20220140133", style = TextStyle(fontSize = 50.sp))
+            color = Color.Blue ))
 
+        Spacer(modifier = Modifier.height(10.dp))
+
+        Text(text = "20220140133", style = TextStyle(fontSize = 50.sp))
         Image(painter = painterResource(id = R.drawable.self),
             contentDescription = null,
             modifier = Modifier.padding(top = 10.dp).size(500.dp)
