@@ -65,6 +65,9 @@ fun BasicLayout(modifier: Modifier = Modifier) {
             color = Color.Cyan),
             modifier = Modifier.padding(bottom = 10.dp))
         Text(text = "20220140133", style = TextStyle(fontSize = 50.sp))
+
+        Image(painter = painterResource(id = R.drawable.self),
+            contentDescription = null)
     }
 }
 
